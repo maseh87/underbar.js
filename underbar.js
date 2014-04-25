@@ -360,13 +360,15 @@ var _ = { };
   _.zip = function() {
 
   };
-
   // Takes a multidimensional array and converts it to a one-dimensional array.
   // The new array should contain all elements of the multidimensional array.
   //
   // Hint: Use Array.isArray to check if something is an array
   _.flatten = function(nestedArray, result) {
+    if(Array.isArray(nestedArray)) {
+    console.log('fuck');
 
+    }
   };
 
   // Takes an arbitrary number of arrays and produces an array that contains
